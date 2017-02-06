@@ -4,4 +4,8 @@ defmodule Learnwithnittin.PageController do
   def index(conn, _params) do
     render conn, "index.html"
   end
+
+  def nittin(conn, _params) do
+    render conn, "nittin.html"
+  end
 end
